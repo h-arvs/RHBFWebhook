@@ -3,6 +3,7 @@ import os
 import json
 import requests
 import WindowSSHandler
+import sys
 from FileModHandler import FileModified
 
 config = ""
@@ -12,19 +13,23 @@ if os.path.exists("./config.json"):
         f.close()
 else:
     print("There is no config.json, try unzipping the file again.")
-    exit()
+    input(r"press enter to close: ")
+    sys.exit()
 
 if Checks.webhook_check(config.get("webhook")) is not True:
     print("Webhook is invalid, have you run setup?")
-    exit()
+    input(r"press enter to close: ")
+    sys.exit()
 
 if Checks.AdvancedFileCheck(config.get("logdir")) is not True:
     print("Log dir is invalid, try running setup again")
-    exit()
+    input(r"press enter to close: ")
+    sys.exit()
 
 if Checks.CheckForWindow("Minecraft 1.12.2") is False:
     print("Minecraft java is not open, please open it.")
-    exit()
+    input(r"press enter to close: ")
+    sys.exit()
 
 print("Watching log file")
 

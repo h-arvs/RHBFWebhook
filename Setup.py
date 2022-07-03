@@ -56,4 +56,5 @@ with open("config.json", "w") as f:
     json.dump(config, f)
 print("For extra customization, see config.json")
 print("Setup is now done! You may run main")
+input(r"press enter to close: ")
 
