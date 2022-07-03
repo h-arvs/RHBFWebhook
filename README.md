@@ -31,13 +31,13 @@ If you installed the python files you need to:
 Here ill explain all the shit in config.json
 
 SET WHEN YOU RUN SETUP
----------------------------------------------------------------------------------------
+
 userid - a string containing your discord user id
 webhook - your discord webhook url
 logfir - your log file directory
----------------------------------------------------------------------------------------
+
 SET ALLREADY BUT CUSTOMIZABLE
----------------------------------------------------------------------------------------
+
 user - webhook data 
 user(name) - Webhook name (can be anything you want, doesnt need to be what you set in the intergrations tab on discord. leave blank for what you set in discord)
 user(avatar url) - Image url of the webhooks avatar (Same as name, can be anything, leave blank for default)
