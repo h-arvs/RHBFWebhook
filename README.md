@@ -1,7 +1,7 @@
 # this is extremely unnecessary, you may bully me
 
 # RHBFWebhook
-[Rusher utility mod](https://rusherhack.org/) (A Minecraft Java 1.12.2 paid utility mod), [Base Finder Module](https://rusherhack.org/features/basefinder.html), Webhook (discord webhook) is a tool that utilizes the log file of basefinder to send messages to a discord webhook that 
+
 gives neccasary data such as: server, time, date, what was found and related cords (e.g. There is a bed near X:-131313, Y:120, Z:-293912).
 It also provides a screenshot of the minecraft window. Its coded in purely python (with an exception of the config json).
 
