@@ -1,7 +1,8 @@
 # this is extremely unnecessary, you may bully me
 
 # RHBFWebhook
-[Rusher utility mod](https://rusherhack.org/) (A Minecraft Java 1.12.2 paid utility mod), [Base Finder](https://rusherhack.org/features/basefinder.html) Webhook (discord webhook) is a tool that utilizes the log file of [Base Finder](https://rusherhack.org/features/basefinder.html) to send messages to a discord webhook that 
+[Rusher utility mod](https://rusherhack.org/) (A Minecraft Java 1.12.2 paid utility mod), [Base Finder](https://rusherhack.org/features/basefinder.html) Webhook (discord webhook) is a tool that utilizes the log file of [Base Finder](https://rusherhack.org/features/basefinder.html) to send messages to a discord webhook that gives neccasary data such as: server, time, date, what was found and related cords (e.g. There is a bed near X:-131313, Y:120, Z:-293912).
+It also provides a screenshot of the minecraft window. Its coded in purely python (with an exception of the config json).
 
 # Screenshot feature
 The screenshot feature is unique as you know if you have found something worth going back to, it maximizes and brings the minecraft window infront everything else using a combination of win32gui and win32con (both part of the pywin32 package) and pyautogui's screenshot function to take a full screen screenshot and saves it to the local folder. It then sends it in an embed (so it looks beautiful) to the webhook (this took me way too long to code as it has nearly no ducumentation of it online).
